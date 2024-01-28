@@ -43,8 +43,6 @@ def test_positive_form_registration():
 
     browser.element('#submit').should(be.clickable).click()
 
-    # time.sleep(5.0)
-
     browser.element('.table').all('td').even.should(
         have.texts('Alex Yanin',
                    'test@test.ru',
