@@ -1,5 +1,4 @@
 import os
-import time
 from selene import browser, be, have, by
 
 def test_positive_form_registration():
